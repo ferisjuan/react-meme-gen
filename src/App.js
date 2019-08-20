@@ -1,9 +1,15 @@
 import React from 'react';
-import logo from './logo.svg';
+import Header from './components/Header';
+import MemeGeneratorComponent from './components/MemeGeneratorComponent';
 import './App.css';
 
 function App() {
-  return <h1>App</h1>;
+  return (
+    <div className="">
+      <Header />
+      <MemeGeneratorComponent />
+    </div>
+  );
 }
 
 export default App;
